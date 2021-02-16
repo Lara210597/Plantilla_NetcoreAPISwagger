@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Plantilla.NetCoreSwaggerBasicAuth.Servicio;
@@ -19,6 +20,8 @@ namespace Plantilla.NetCoreSwaggerBasicAuth.Servicio
     {
         readonly IUserService _userService;
 
+        readonly IConfiguration _config;
+
         /// <summary>
         /// 
         /// </summary>
@@ -32,10 +35,12 @@ namespace Plantilla.NetCoreSwaggerBasicAuth.Servicio
             IOptionsMonitor<AuthenticationSchemeOptions> options,
             ILoggerFactory logger,
             UrlEncoder encoder,
-            ISystemClock clock)
+            ISystemClock clock, 
+            IConfiguration configuration)
             : base(options, logger, encoder, clock)
         {
             _userService = userService;
+            _config = configuration;
         }
 
         /// <summary>
@@ -55,6 +60,7 @@ namespace Plantilla.NetCoreSwaggerBasicAuth.Servicio
         /// <returns></returns>
         protected override async Task<AuthenticateResult> HandleAuthenticateAsync()
         {
+        
             string username = null;
             try
             {
@@ -63,7 +69,7 @@ namespace Plantilla.NetCoreSwaggerBasicAuth.Servicio
                 username = credentials.FirstOrDefault();
                 var password = credentials.LastOrDefault();
 
-                if (!_userService.ValidateCredentials(username, password))
+                if (!_userService.ValidateCredentials(username, password, _config))
                     throw new ArgumentException("Invalid credentials");
             }
             catch(Exception ex)

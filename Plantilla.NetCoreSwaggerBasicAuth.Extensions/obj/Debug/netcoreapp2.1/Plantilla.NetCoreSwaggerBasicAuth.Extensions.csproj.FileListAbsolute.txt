@@ -21,3 +21,15 @@ C:\Users\Walter Cubero\source\repos\Plantilla.NetCoreSwaggerBasicAuth\Plantilla.
 C:\Users\Walter Cubero\source\repos\Plantilla.NetCoreSwaggerBasicAuth\Plantilla.NetCoreSwaggerBasicAuth.Extensions\obj\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Extensions.dll
 C:\Users\Walter Cubero\source\repos\Plantilla.NetCoreSwaggerBasicAuth\Plantilla.NetCoreSwaggerBasicAuth.Extensions\obj\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Extensions.pdb
 C:\Users\Walter Cubero\source\repos\Plantilla.NetCoreSwaggerBasicAuth\Plantilla.NetCoreSwaggerBasicAuth.Extensions\obj\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Extensions.csprojAssemblyReference.cache
+C:\Users\Walter Cubero\Source\Repos\Plantilla_NetcoreAPISwagger\Plantilla.NetCoreSwaggerBasicAuth.Extensions\bin\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Extensions.deps.json
+C:\Users\Walter Cubero\Source\Repos\Plantilla_NetcoreAPISwagger\Plantilla.NetCoreSwaggerBasicAuth.Extensions\bin\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Extensions.dll
+C:\Users\Walter Cubero\Source\Repos\Plantilla_NetcoreAPISwagger\Plantilla.NetCoreSwaggerBasicAuth.Extensions\bin\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Extensions.pdb
+C:\Users\Walter Cubero\Source\Repos\Plantilla_NetcoreAPISwagger\Plantilla.NetCoreSwaggerBasicAuth.Extensions\bin\Debug\netcoreapp2.1\Newtonsoft.Json.dll
+C:\Users\Walter Cubero\Source\Repos\Plantilla_NetcoreAPISwagger\Plantilla.NetCoreSwaggerBasicAuth.Extensions\bin\Debug\netcoreapp2.1\Newtonsoft.Json.xml
+C:\Users\Walter Cubero\Source\Repos\Plantilla_NetcoreAPISwagger\Plantilla.NetCoreSwaggerBasicAuth.Extensions\obj\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Extensions.csprojAssemblyReference.cache
+C:\Users\Walter Cubero\Source\Repos\Plantilla_NetcoreAPISwagger\Plantilla.NetCoreSwaggerBasicAuth.Extensions\obj\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Extensions.AssemblyInfoInputs.cache
+C:\Users\Walter Cubero\Source\Repos\Plantilla_NetcoreAPISwagger\Plantilla.NetCoreSwaggerBasicAuth.Extensions\obj\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Extensions.AssemblyInfo.cs
+C:\Users\Walter Cubero\Source\Repos\Plantilla_NetcoreAPISwagger\Plantilla.NetCoreSwaggerBasicAuth.Extensions\obj\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\Walter Cubero\Source\Repos\Plantilla_NetcoreAPISwagger\Plantilla.NetCoreSwaggerBasicAuth.Extensions\obj\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Extensions.csproj.CopyComplete
+C:\Users\Walter Cubero\Source\Repos\Plantilla_NetcoreAPISwagger\Plantilla.NetCoreSwaggerBasicAuth.Extensions\obj\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Extensions.dll
+C:\Users\Walter Cubero\Source\Repos\Plantilla_NetcoreAPISwagger\Plantilla.NetCoreSwaggerBasicAuth.Extensions\obj\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Extensions.pdb

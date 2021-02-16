@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using System;
 namespace Plantilla.NetCoreSwaggerBasicAuth.Servicio
 {
     /// <summary>
@@ -12,6 +13,6 @@ namespace Plantilla.NetCoreSwaggerBasicAuth.Servicio
         /// <param name="username"></param>
         /// <param name="password"></param>
         /// <returns></returns>
-        bool ValidateCredentials(String username, String password);
+        bool ValidateCredentials(String username, String password, IConfiguration config);
     }
 }

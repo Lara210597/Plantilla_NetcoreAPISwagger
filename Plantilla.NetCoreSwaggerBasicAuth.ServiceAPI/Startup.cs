@@ -66,7 +66,7 @@ namespace Plantilla.NetCoreSwaggerBasicAuth.Servicio
          
             services.AddSwaggerGen(options =>
             {
-                const string url_exceltec = "https://www.excelteccr.com/";
+                const string url = "https://www.abc.com/";
 
                 options.EnableAnnotations();
 
@@ -75,19 +75,19 @@ namespace Plantilla.NetCoreSwaggerBasicAuth.Servicio
                 options.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = $"Exceltec.Arquitectura.Servicio - Environment: {Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}",
-                    Description = $"Componentes Back-End Exceltec.Arquitectura.Servicio {Environment.NewLine} {Environment.NewLine} ",
-                    TermsOfService = new Uri(url_exceltec),
+                    Title = $"Environment: {Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}",
+                    Description = $" {Environment.NewLine} {Environment.NewLine} ",
+                    TermsOfService = new Uri(url),
                     Contact = new OpenApiContact()
                     {
-                        Name = "Tecnologías de la información",
-                        Email = "wcubero@excelteccr.com",
-                        Url = new Uri(url_exceltec)
+                        Name = "TI",
+                        Email = "abc@abc.com",
+                        Url = new Uri(url)
                     },
                     License = new OpenApiLicense
                     {
-                        Name = "Exceltec©",
-                        Url = new Uri(url_exceltec)
+                        Name = "abc©",
+                        Url = new Uri(url)
                     },
                 });
 
@@ -112,7 +112,7 @@ namespace Plantilla.NetCoreSwaggerBasicAuth.Servicio
                     Type = SecuritySchemeType.Http,
                     Scheme = "basic",
                     In = ParameterLocation.Header,
-                    Description = "Exceltec | Basic Authorization"
+                    Description = "ABC | Basic Authorization"
                 });
 
                 options.AddSecurityRequirement(new OpenApiSecurityRequirement

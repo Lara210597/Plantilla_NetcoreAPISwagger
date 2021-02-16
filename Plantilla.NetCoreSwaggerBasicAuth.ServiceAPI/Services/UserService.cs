@@ -1,4 +1,6 @@
-﻿namespace Plantilla.NetCoreSwaggerBasicAuth.Servicio
+﻿using Microsoft.Extensions.Configuration;
+
+namespace Plantilla.NetCoreSwaggerBasicAuth.Servicio
 {
     /// <summary>
     /// 
@@ -11,9 +13,9 @@
         /// <param name="username"></param>
         /// <param name="password"></param>
         /// <returns></returns>
-        public bool ValidateCredentials(string username, string password)
+        public bool ValidateCredentials(string username, string password, IConfiguration config)
         {
-            return username.Equals("Exceltec_CRM") && password.Equals("Td9tRuVDPdW845rQ");
+            return username.Equals(config["ApiCredentials:api_username"]) && password.Equals(config["ApiCredentials:api_userpassword"]);
         }
     }
 }

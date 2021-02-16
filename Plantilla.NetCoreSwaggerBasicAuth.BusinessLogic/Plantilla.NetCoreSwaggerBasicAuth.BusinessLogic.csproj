@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Plantilla.NetCoreSwaggerBasicAuth.BusinessLogic</AssemblyName>
+    <RootNamespace>Plantilla.NetCoreSwaggerBasicAuth.BusinessLogic</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Plantilla.NetCoreSwaggerBasicAuth..Entity\Plantilla.NetCoreSwaggerBasicAuth.Entity.csproj" />
+    <ProjectReference Include="..\Plantilla.NetCoreSwaggerBasicAuth.DataAccess\Plantilla.NetCoreSwaggerBasicAuth.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

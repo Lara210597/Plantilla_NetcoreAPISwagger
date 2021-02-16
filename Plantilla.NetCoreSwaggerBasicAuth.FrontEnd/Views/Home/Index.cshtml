@@ -1,0 +1,106 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<script type="text/javascript">
+
+    $(function () {
+
+        $("[id*='id_btn_example']").click(function () {
+
+            listado_employee_ejemplo();
+
+        });
+
+    });
+
+    function cargar_tabla(data) {
+
+        debugger
+
+        $('#id_table').DataTable().destroy();
+
+        $('#id_table tbody').empty();
+
+
+        for (var i = 0; i < data.model.length; i++)
+        {
+            var row = data.model[i];
+
+            var items = "<tr>";
+            items += "<td>" + row.id + "</td>";
+            items += "<td>" + row.name + "</td>";
+            items += "<td>" + row.email + "</td>";
+            items += "</tr> ";
+
+            $("#id_table > tbody").append(items);
+
+        }
+
+
+        var table = $("#id_table").DataTable({            
+            "order": [[1, "desc"]]
+        });
+
+
+
+
+    }
+
+    function listado_employee_ejemplo() {
+
+        var sucessResponse = function (data) {
+
+            cargar_tabla(data);
+            
+        };
+
+        var employee = {
+            Id: "1",
+            Name: "name ejemplo"
+        };
+
+        ajax_method("/Home/ListdoEmployee", employee, sucessResponse, errorResponse);
+    }
+
+
+
+</script>
+
+<div class="alert alert-info" role="alert">
+    <strong>Consideracion!</strong> 
+    <br />
+
+    <ul>
+        <li>Esto es un Ejemplo de un Proyecto Front comunicandose con un Servicio, en donde la lógica reside en el servicio</li>
+        <li>El FrontEnd se separa como una capa independiente, estpo permite comunicar a los usuarios con el FrontEnd, pero tambien extiende su uso y comunicacion entre sistemas, atraves del Microservicio</li>
+        <li>Para probar este Ejmplo, se debe primero levantar el Proyecto [Plantilla.NetCoreSwaggerBasicAuth.Servicio], que será consultado desde este FrontEnd</li>
+        <li>Este será el estandar de desarrollo para las aplicaciones</li>
+        <li>Esta Arquitectura permite centrar el esfuerzo en la lógica de negocio y estandarizar el desarrollo</li>
+    </ul>
+
+</div>
+
+<button id="id_btn_example" type="button" class="btn btn-lg btn-primary">Ejemplo Request al Servicio</button>
+
+
+<table id="id_table" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Email</th>
+
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </tfoot>
+</table>

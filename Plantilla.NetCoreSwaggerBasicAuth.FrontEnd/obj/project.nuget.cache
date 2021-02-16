@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8pXZ5Mn690QLek70FxNkpIhEM7VkXvqt4HlMrwGhxX8UfoeZZie1PpPuvm1InzfCZPfayWrhykmwf1JhGMizmQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Walter Cubero\\Source\\Repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth.FrontEnd\\Plantilla.NetCoreSwaggerBasicAuth.FrontEnd.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Walter Cubero\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Walter Cubero\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,8 @@
+C:\Users\Walter Cubero\source\repos\Exceltec.Arquitectura.CRM\Exceltec.Arquitectura.CRM.Entity\bin\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Entity.deps.json
+C:\Users\Walter Cubero\source\repos\Exceltec.Arquitectura.CRM\Exceltec.Arquitectura.CRM.Entity\bin\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Entity.dll
+C:\Users\Walter Cubero\source\repos\Exceltec.Arquitectura.CRM\Exceltec.Arquitectura.CRM.Entity\bin\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Entity.pdb
+C:\Users\Walter Cubero\source\repos\Exceltec.Arquitectura.CRM\Exceltec.Arquitectura.CRM.Entity\obj\Debug\netcoreapp2.1\Exceltec.Arquitectura.CRM.Entity.AssemblyInfoInputs.cache
+C:\Users\Walter Cubero\source\repos\Exceltec.Arquitectura.CRM\Exceltec.Arquitectura.CRM.Entity\obj\Debug\netcoreapp2.1\Exceltec.Arquitectura.CRM.Entity.AssemblyInfo.cs
+C:\Users\Walter Cubero\source\repos\Exceltec.Arquitectura.CRM\Exceltec.Arquitectura.CRM.Entity\obj\Debug\netcoreapp2.1\Exceltec.Arquitectura.CRM.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Walter Cubero\source\repos\Exceltec.Arquitectura.CRM\Exceltec.Arquitectura.CRM.Entity\obj\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Entity.dll
+C:\Users\Walter Cubero\source\repos\Exceltec.Arquitectura.CRM\Exceltec.Arquitectura.CRM.Entity\obj\Debug\netcoreapp2.1\Plantilla.NetCoreSwaggerBasicAuth.Entity.pdb

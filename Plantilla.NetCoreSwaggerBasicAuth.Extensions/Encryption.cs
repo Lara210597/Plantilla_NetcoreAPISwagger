@@ -8,7 +8,7 @@ namespace Plantilla.NetCoreSwaggerBasicAuth.Extensions
 {
     public static class Encryption
     {
-        private static string PassEncryt = "2020Gass*-aa";
+        private static string PassEncryt = "2090Okli*-aa";
 
         public static string ToEncrypt(this string value)
         {

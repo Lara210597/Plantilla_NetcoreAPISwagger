@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plantilla.NetCoreSwaggerBasicAuth.API</name>
+    </assembly>
+    <members>
+        <member name="T:Plantilla.NetCoreSwaggerBasicAuth.API.BasicAuthenticationHandler">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Plantilla.NetCoreSwaggerBasicAuth.API.BasicAuthenticationHandler.#ctor(Plantilla.NetCoreSwaggerBasicAuth.API.IUserService,Microsoft.Extensions.Options.IOptionsMonitor{Microsoft.AspNetCore.Authentication.AuthenticationSchemeOptions},Microsoft.Extensions.Logging.ILoggerFactory,System.Text.Encodings.Web.UrlEncoder,Microsoft.AspNetCore.Authentication.ISystemClock)">
+            <summary>
+            
+            </summary>
+            <param name="userService"></param>
+            <param name="options"></param>
+            <param name="logger"></param>
+            <param name="encoder"></param>
+            <param name="clock"></param>
+        </member>
+        <member name="M:Plantilla.NetCoreSwaggerBasicAuth.API.BasicAuthenticationHandler.HandleChallengeAsync(Microsoft.AspNetCore.Authentication.AuthenticationProperties)">
+            <summary>
+            
+            </summary>
+            <param name="properties"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plantilla.NetCoreSwaggerBasicAuth.API.BasicAuthenticationHandler.HandleAuthenticateAsync">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Plantilla.NetCoreSwaggerBasicAuth.API.Controllers.EmployeeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Plantilla.NetCoreSwaggerBasicAuth.API.Controllers.EmployeeController.#ctor(Plantilla.NetCoreSwaggerBasicAuth.BusinessLogic.Employee.IEmployeeBL)">
+            <summary>
+            
+            </summary>
+            <param name="employeeBL"></param>
+        </member>
+        <member name="M:Plantilla.NetCoreSwaggerBasicAuth.API.Controllers.EmployeeController.GetEmployees(Plantilla.NetCoreSwaggerBasicAuth.Entity.Employee.EmployeeET)">
+            <summary>
+            Obtiene listado de Employee 
+            </summary>
+            <remarks>        
+            <pre>Ejemplo de Input para probar
+            </pre>
+            </remarks>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plantilla.NetCoreSwaggerBasicAuth.API.Controllers.EmployeeController.GetEmployee(Plantilla.NetCoreSwaggerBasicAuth.Entity.Employee.EmployeeET)">
+            <summary>
+            Obtiene Emplyee por Id
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Plantilla.NetCoreSwaggerBasicAuth.API.IoC">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Plantilla.NetCoreSwaggerBasicAuth.API.IoC.IoC_Injection(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:Plantilla.NetCoreSwaggerBasicAuth.API.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Plantilla.NetCoreSwaggerBasicAuth.API.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Plantilla.NetCoreSwaggerBasicAuth.API.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Plantilla.NetCoreSwaggerBasicAuth.API.IUserService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Plantilla.NetCoreSwaggerBasicAuth.API.IUserService.ValidateCredentials(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="username"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Plantilla.NetCoreSwaggerBasicAuth.API.UserService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Plantilla.NetCoreSwaggerBasicAuth.API.UserService.ValidateCredentials(System.String,System.String)">
+            <summary>
+            Usuario para Basic Authentication
+            </summary>
+            <param name="username"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Plantilla.NetCoreSwaggerBasicAuth.API.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Plantilla.NetCoreSwaggerBasicAuth.API.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Plantilla.NetCoreSwaggerBasicAuth.API.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Plantilla.NetCoreSwaggerBasicAuth.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Plantilla.NetCoreSwaggerBasicAuth.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

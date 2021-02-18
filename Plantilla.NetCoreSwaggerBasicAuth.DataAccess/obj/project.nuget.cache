@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O/fB93nud//BP2aOcRUFSEgfa+er2yVI9dcrvXyCUoKTYywnYrr43h/HT54G/UCpKc0DEYkJeq2rVv1VkwD1CA==",
+  "dgSpecHash": "2ly8j5VOAYmgppQOm0vjvLlLAfFxq5ecXiQcE6pgPwoTgOh+zJjWJW6MUCAVGL/nxCOEy6H2Km65Rrdy/LqWDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Walter Cubero\\Source\\Repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth.DataAccess\\Plantilla.NetCoreSwaggerBasicAuth.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Walter Cubero\\source\\repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth.DataAccess\\Plantilla.NetCoreSwaggerBasicAuth.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Walter Cubero\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\Walter Cubero\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",

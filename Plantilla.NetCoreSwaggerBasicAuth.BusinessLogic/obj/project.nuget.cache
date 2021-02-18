@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uUbwNjGp34tezGYdcs4OQUW3lG2AsLdklvS0UXDq59iRl54PBy5wlhC8Hs/Deu9sJgbLx3pbRGtHgyNEaWYl+Q==",
+  "dgSpecHash": "9RtZUmzAYSFqy6wgQ9j7s0vLpvxg9KUYHs3lqmRBDnx0ra+Kl6eiRCBdOYTAVmBm2TmiAIWvswziUqmTiA+uCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Walter Cubero\\Source\\Repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth.BusinessLogic\\Plantilla.NetCoreSwaggerBasicAuth.BusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\Walter Cubero\\source\\repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth.BusinessLogic\\Plantilla.NetCoreSwaggerBasicAuth.BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Walter Cubero\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\Walter Cubero\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",

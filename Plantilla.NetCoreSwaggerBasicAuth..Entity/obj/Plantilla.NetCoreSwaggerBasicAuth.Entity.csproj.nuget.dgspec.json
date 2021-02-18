@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Walter Cubero\\Source\\Repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth..Entity\\Plantilla.NetCoreSwaggerBasicAuth.Entity.csproj": {}
+    "C:\\Users\\Walter Cubero\\source\\repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth..Entity\\Plantilla.NetCoreSwaggerBasicAuth.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Walter Cubero\\Source\\Repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth..Entity\\Plantilla.NetCoreSwaggerBasicAuth.Entity.csproj": {
+    "C:\\Users\\Walter Cubero\\source\\repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth..Entity\\Plantilla.NetCoreSwaggerBasicAuth.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Walter Cubero\\Source\\Repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth..Entity\\Plantilla.NetCoreSwaggerBasicAuth.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Walter Cubero\\source\\repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth..Entity\\Plantilla.NetCoreSwaggerBasicAuth.Entity.csproj",
         "projectName": "Plantilla.NetCoreSwaggerBasicAuth.Entity",
-        "projectPath": "C:\\Users\\Walter Cubero\\Source\\Repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth..Entity\\Plantilla.NetCoreSwaggerBasicAuth.Entity.csproj",
+        "projectPath": "C:\\Users\\Walter Cubero\\source\\repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth..Entity\\Plantilla.NetCoreSwaggerBasicAuth.Entity.csproj",
         "packagesPath": "C:\\Users\\Walter Cubero\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Walter Cubero\\Source\\Repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth..Entity\\obj\\",
+        "outputPath": "C:\\Users\\Walter Cubero\\source\\repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth..Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

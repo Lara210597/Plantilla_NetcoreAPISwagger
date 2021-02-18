@@ -101,11 +101,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Walter Cubero\\Source\\Repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth.FrontEnd\\Plantilla.NetCoreSwaggerBasicAuth.FrontEnd.csproj",
+      "projectUniqueName": "C:\\Users\\Walter Cubero\\source\\repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth.FrontEnd\\Plantilla.NetCoreSwaggerBasicAuth.FrontEnd.csproj",
       "projectName": "Plantilla.NetCoreSwaggerBasicAuth.FrontEnd",
-      "projectPath": "C:\\Users\\Walter Cubero\\Source\\Repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth.FrontEnd\\Plantilla.NetCoreSwaggerBasicAuth.FrontEnd.csproj",
+      "projectPath": "C:\\Users\\Walter Cubero\\source\\repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth.FrontEnd\\Plantilla.NetCoreSwaggerBasicAuth.FrontEnd.csproj",
       "packagesPath": "C:\\Users\\Walter Cubero\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Walter Cubero\\Source\\Repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth.FrontEnd\\obj\\",
+      "outputPath": "C:\\Users\\Walter Cubero\\source\\repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth.FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -127,8 +127,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Walter Cubero\\Source\\Repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth..Entity\\Plantilla.NetCoreSwaggerBasicAuth.Entity.csproj": {
-              "projectPath": "C:\\Users\\Walter Cubero\\Source\\Repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth..Entity\\Plantilla.NetCoreSwaggerBasicAuth.Entity.csproj"
+            "C:\\Users\\Walter Cubero\\source\\repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth..Entity\\Plantilla.NetCoreSwaggerBasicAuth.Entity.csproj": {
+              "projectPath": "C:\\Users\\Walter Cubero\\source\\repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth..Entity\\Plantilla.NetCoreSwaggerBasicAuth.Entity.csproj"
             }
           }
         }

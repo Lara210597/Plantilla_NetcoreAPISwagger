@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XV0DzauEpPZ9/MZWr1QQjR629lsI2JNRk57CGPL8gP5wUXJBfBFZX0jyK0oEqJ0qFptV3586sJw37SA5P81rlg==",
+  "dgSpecHash": "7XslsTS0d1myIdSflbHNRTB8nufRYU8PhRCmcknn/7anj6QpSR8ZgB4yL97Zu5EdPXMn1ijQi1N2y/WumrTh7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Walter Cubero\\Source\\Repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth.Extensions\\Plantilla.NetCoreSwaggerBasicAuth.Extensions.csproj",
+  "projectFilePath": "C:\\Users\\Walter Cubero\\source\\repos\\Plantilla_NetcoreAPISwagger\\Plantilla.NetCoreSwaggerBasicAuth.Extensions\\Plantilla.NetCoreSwaggerBasicAuth.Extensions.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Walter Cubero\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",

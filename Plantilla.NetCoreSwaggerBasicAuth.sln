@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plantilla.NetCoreSwaggerBas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plantilla.NetCoreSwaggerBasicAuth.FrontEnd", "Plantilla.NetCoreSwaggerBasicAuth.FrontEnd\Plantilla.NetCoreSwaggerBasicAuth.FrontEnd.csproj", "{9BEB96A2-BD25-4C74-916B-D32CFEAF8B3A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plantilla.NetCoreSwaggerBasicAuth.ServiceAPI", "Plantilla.NetCoreSwaggerBasicAuth.ServiceAPI\Plantilla.NetCoreSwaggerBasicAuth.ServiceAPI.csproj", "{7FA6AA51-BCF6-4873-BEA2-3F8C3B4B9334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plantilla.NetCoreSwaggerBasicAuth.API", "Plantilla.NetCoreSwaggerBasicAuth.API\Plantilla.NetCoreSwaggerBasicAuth.API.csproj", "{8436F03D-91E3-4540-8990-6535FC856DA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{9BEB96A2-BD25-4C74-916B-D32CFEAF8B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BEB96A2-BD25-4C74-916B-D32CFEAF8B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BEB96A2-BD25-4C74-916B-D32CFEAF8B3A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7FA6AA51-BCF6-4873-BEA2-3F8C3B4B9334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7FA6AA51-BCF6-4873-BEA2-3F8C3B4B9334}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7FA6AA51-BCF6-4873-BEA2-3F8C3B4B9334}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7FA6AA51-BCF6-4873-BEA2-3F8C3B4B9334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8436F03D-91E3-4540-8990-6535FC856DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8436F03D-91E3-4540-8990-6535FC856DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8436F03D-91E3-4540-8990-6535FC856DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8436F03D-91E3-4540-8990-6535FC856DA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
